@@ -1,0 +1,59 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	color: white;
+}
+
+/******header******/
+#header-nav {
+	background-color: #075BAF;
+	vertical-align: middle;
+}
+
+#nav-list a{
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#nav-list a:hover{
+	background-color: #2B2E30;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid white;
+}
+.navbar-header button.navbar-toggle{
+	margin-top: 20px;
+}
+/******end of header******/
+
+
+/******main contain******/
+#main-contain h2{
+	color: #075BAF;
+	text-align: center;
+	margin-top: 0;
+
+}
+
+#chicken, #beef, #sushi{
+	background-color: #075BAF;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+#main-contain h3{
+	text-align: center;
+	margin-top: 0px;
+}
+
+
+#chicken a, #beef a, #sushi a{
+	color: maroon;
+}
+
+/******large device******/
